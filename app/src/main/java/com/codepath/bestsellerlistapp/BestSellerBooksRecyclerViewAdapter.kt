@@ -51,7 +51,6 @@ class BestSellerBooksRecyclerViewAdapter(
         holder.mItem = book
         holder.mBookTitle.text = book.title
         holder.mBookAuthor.text = book.author
-        holder.mBookAuthor.text = book.author
         holder.mBookDescription.text = book.description
         holder.mBookRanking.text = book.rank.toString()
 
